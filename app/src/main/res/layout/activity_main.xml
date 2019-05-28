@@ -7,4 +7,8 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+    <com.angelorobson.customwebview.CustomMicroAppWebView android:layout_width="match_parent"
+                                                          android:layout_height="match_parent"
+                                                          app:websiteUrl="https://www.soluevo.com.br/"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

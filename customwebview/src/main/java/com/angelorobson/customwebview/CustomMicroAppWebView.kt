@@ -9,12 +9,13 @@ import android.webkit.WebChromeClient
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.LinearLayout
+import android.widget.RelativeLayout
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import com.angelorobson.customwebview.databinding.ActivityCustomWebViewBinding
 import kotlinx.android.synthetic.main.activity_custom_web_view.view.*
 
-class CustomMicroAppWebView(context: Context, attrs: AttributeSet) : LinearLayout(context, attrs) {
+class CustomMicroAppWebView(context: Context, attrs: AttributeSet) : RelativeLayout(context, attrs) {
 
     private lateinit var binding: ActivityCustomWebViewBinding
 
