@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+            android:id="@+id/ssoViewerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:id="@+id/button_layout"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:gravity="center|bottom">
+
+            <WebView
+                    android:id="@+id/webView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <Button
+                        android:id="@+id/showToastButton"
+                        android:layout_marginTop="16dp"
+                        android:layout_width="125dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="5dp"
+                        android:visibility="gone"
+                        android:text="Show Toast"/>
+
+            </WebView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>
