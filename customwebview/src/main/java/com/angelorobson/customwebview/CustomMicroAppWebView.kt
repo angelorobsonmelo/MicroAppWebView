@@ -41,7 +41,7 @@ class CustomMicroAppWebView(context: Context, attrs: AttributeSet) : LinearLayou
         }
     }
 
-    @SuppressLint("JavascriptInterface")
+    @SuppressLint("JavascriptInterface", "SetJavaScriptEnabled")
     private fun loadWebView(attrs: AttributeSet): WebView {
         var url = ""
 
